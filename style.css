@@ -1,0 +1,53 @@
+.container {
+    height: 250px;
+    width: 360px;
+    background-color: rgb(160, 206, 230);
+    padding: 30px;
+    box-shadow: 0px 5px rgb(65, 156, 222);
+}
+.btn {
+    height: 40px;
+    width: 70px;
+    margin: 5px;
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    color: rgb(165, 165, 165);
+    box-shadow: 0px 5px rgb(128, 169, 191);
+    border-radius: 3px;
+}
+.btn:hover {
+    background-color: rgb(152, 140, 239);
+    box-shadow: 0px 5px rgb(101, 88, 204);
+    color: #fff;
+}
+.btn:active {
+    box-shadow: 0px 5px rgb(152, 140, 239);
+    transform: translateY(1px); 
+}
+.panel {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(135, 171, 191);
+    margin: 5px;
+    margin-left: 40px;
+    box-shadow: 0px 5px inset rgb(111, 140, 156);
+    border-radius: 3px;
+}
+.main-buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+.del {
+    background-color: rgb(243, 163, 169);
+    color: #fff;
+    box-shadow: 0px 5px rgb(238, 131, 138);
+}
+.sign {
+    background-color: rgb(252, 241, 245);
+}
+.equal {
+    background-color: rgb(245, 254, 160);
+    box-shadow: 0px 5px rgb(159, 167, 94);
+}
